@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">calculadora</string>
+    <string name="titulo">CALCULADORA</string>
+    <string name="PRIMER_NUMERO">PRIMER NUMERO</string>
+    <string name="SEGUNDO_NUMERO">SEGUNDO NUMERO</string>
+    <string name="GUARDAR">GUARDAR</string>
+    <string name="LIMPIAR">LIMPIAR</string>
+
+
+
 </resources>
