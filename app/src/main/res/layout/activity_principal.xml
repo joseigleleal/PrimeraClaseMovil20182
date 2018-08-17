@@ -21,7 +21,7 @@
         android:textStyle="bold" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/txtPN"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -29,7 +29,7 @@
         android:inputType="number" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/txtSN"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -37,7 +37,7 @@
         android:inputType="number" />
 
     <Spinner
-        android:id="@+id/spinner"
+        android:id="@+id/cmbOp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
@@ -47,29 +47,29 @@
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/GUARDAR"
-            tools:text="@string/GUARDAR" />
+            android:onClick="calcular"
+            android:text="@string/CALCULAR" />
 
         <Button
             android:id="@+id/button2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:onClick="limpiar"
             android:text="@string/LIMPIAR"
             tools:text="@string/LIMPIAR" />
 
     </LinearLayout>
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/txtR"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:text="TextView" />
+        android:textAlignment="viewStart"
+        android:textSize="18sp" />
 
 </LinearLayout>
 

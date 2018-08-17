@@ -6,4 +6,10 @@
     <string name="SEGUNDO_NUMERO">SECOND NUMBER</string>
     <string name="GUARDAR">SAVE</string>
     <string name="LIMPIAR">CLAER</string>
+    <string name="resta">Subtration</string>
+    <string name="suma">Addition</string>
+    <string name="multiplicacion">Multiplication</string>
+    <string name="division">Division</string>
+    <string name="selec">selet an operation</string>
+    <string name="seleccione">Choose an option</string>
 </resources>

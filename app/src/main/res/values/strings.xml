@@ -3,9 +3,22 @@
     <string name="titulo">CALCULADORA</string>
     <string name="PRIMER_NUMERO">PRIMER NUMERO</string>
     <string name="SEGUNDO_NUMERO">SEGUNDO NUMERO</string>
-    <string name="GUARDAR">GUARDAR</string>
+    <string name="CALCULAR">CALCULATE</string>
     <string name="LIMPIAR">LIMPIAR</string>
+    <string name="resta">Resta</string>
+    <string name="suma">Suma</string>
+    <string name="multiplicacion">Multiplicacion</string>
+    <string name="division">Division</string>
+    <string name="seleccione">Seleccione una opcion</string>
 
+    <string-array name="opciones">
+
+        <item>@string/seleccione</item>
+        <item>@string/suma</item>
+        <item>@string/resta</item>
+        <item>@string/multiplicacion</item>
+        <item>@string/division</item>
+    </string-array>
 
 
 </resources>
